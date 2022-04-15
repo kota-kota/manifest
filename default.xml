@@ -13,6 +13,6 @@
 
   <project path="top/sample/sample_draw" revision="87ebf0aac7f240a1578cfac4a7f889a527349c79" name="sample_draw" groups="all,sample" />
 
-  <project path="top/sample/my-sample-projects" name="sample_draw" groups="all,build,sample" />
+  <project path="top/sample/my-sample-projects" name="my-sample-projects" groups="all,build,sample" />
 
 </manifest>
