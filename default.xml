@@ -5,6 +5,14 @@
 
   <default revision="main" remote="github" />
 
-  <project path="top" name="docker-android-build" revision="bc0c265c8204ec2ed4b577a0f50adc9b56e93f66" groups="all" />
+  <project path="top/build/docker-android-build" name="docker-android-build" revision="bc0c265c8204ec2ed4b577a0f50adc9b56e93f66" groups="all,build" />
+
+  <project path="top/build/docker-linux-build" name="docker-linux-build" revision="278f5fd5cd46462314913dc822871f3c5e92b21f" groups="all,build" />
+
+  <project path="top/sample/sample_window" name="sample_window" groups="all,sample" />
+
+  <project path="top/sample/sample_draw" revision="87ebf0aac7f240a1578cfac4a7f889a527349c79" name="sample_draw" groups="all,sample" />
+
+  <project path="top/sample/my-sample-projects" name="sample_draw" groups="all,build,sample" />
 
 </manifest>
