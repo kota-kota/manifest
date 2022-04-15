@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin" fetch="git@github.com:kota-kota"/> 
+
+  <default revision="main" remote="origin" />
+
+  <project path="top" revision="bc0c265c8204ec2ed4b577a0f50adc9b56e93f66" name="docker-android-build" groups="all"/>
+
+</manifest>
